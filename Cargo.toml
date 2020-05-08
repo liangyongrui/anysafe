@@ -1,0 +1,15 @@
+[package]
+name = "anysafe"
+version = "0.1.0"
+authors = ["liangyongrui <leungyongrui@gmail.com>"]
+edition = "2018"
+description = "any safe"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/liangyongrui/anysafe"
+readme = "readme.md"
+keywords = ['panic', 'unreachable', 'safe']
+categories = ['lib']
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+log = "0.4"
