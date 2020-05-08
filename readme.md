@@ -1,6 +1,6 @@
 # anysafe
 
-Safe version of the Rust function which will let the thread panic.
+Safe version of the Rust function which previous version will let the thread panic.
 
 ## Features
 
