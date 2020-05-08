@@ -2,7 +2,6 @@
 #[macro_export]
 macro_rules! unreachable {
     () => ({
-        dbg!("@@@@@@@@");
         $crate::log::error!("internal error: entered unreachable code");
         Default::default()
     });

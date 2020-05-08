@@ -29,18 +29,15 @@
 )]
 #![allow(
     clippy::module_name_repetitions,
-    clippy::non_ascii_literal,
-    clippy::must_use_candidate,
-    clippy::dbg_macro,
-    // clippy::cargo_common_metadata,
-    clippy::multiple_crate_versions,
+    // clippy::must_use_candidate,
+    // clippy::multiple_crate_versions,
     clippy::missing_docs_in_private_items,
-    clippy::missing_inline_in_public_items,
+    // clippy::missing_inline_in_public_items,
     clippy::implicit_return,
     clippy::wildcard_enum_match_arm,
     // clippy::integer_arithmetic, // 直接整数都不能用运算符了。。得用checked函数，酌情开启吧，可以防止除0异常
-    clippy::use_self, // 泛型会出问题
-    clippy::default_trait_access, // 宏里面使用Default::default
+    // clippy::use_self, // 泛型会出问题
+    // clippy::default_trait_access, // 宏里面使用Default::default
 )]
 mod macros;
 
